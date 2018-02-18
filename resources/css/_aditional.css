@@ -1,0 +1,30 @@
+body {
+      padding-bottom: 40px;
+}
+.sidebar-nav {
+      padding: 9px 0;
+}
+basicFont {
+      font-family: monospace, monospace;
+}
+.table-reportes th,
+.table-reportes td {
+  padding: 1px;
+  cellpadding: 1px;
+}
+.table-reportes-tab {
+    border-collapse: separate;
+    border-spacing: 30px 2px; /* cellspacing */
+    *border-collapse: expression('separate', cellSpacing = '1px');
+}
+.table-reportes-tab th,
+.table-reportes-tab td {
+  padding: 1px;
+  cellpadding: 1px;
+}
+
+.widefat {
+	border-color: #DFDFDF;
+	background-color: white;
+}
+
